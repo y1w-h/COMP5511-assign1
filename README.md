@@ -11,11 +11,17 @@ All implementations are entirely developed in Python, using no external GA libra
 
 ## 🧩 File Structure
 File Description
+
 VRP.csv Input dataset containing depots, customer coordinates, demands, and efficiency scores.
+
 task1_vrp.py Classical VRP using Genetic Algorithm (GA).
+
 task2_stochastic_vrp.py Stochastic-demand VRP (Monte Carlo simulation + GA).
+
 task3_large_vrp.py Large-scale VRP (K-Means clustering + regional GA).
+
 task4_pareto.py Multi-objective VRP (Weighted GA + NSGA-II).
+
 task5__pdp.py Pickup & Delivery VRP (with negative demands, feasibility repair, and penalties).
 
 
